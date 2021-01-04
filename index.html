@@ -8,27 +8,53 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="#">
-            <img id="logo" src="https://dev.mtg-mm.com/assets/img/logo.png">
-        </a>
+    <div class="header">
+        <div class="header__navbar">
+            <div class="header__navbar imgs__logo">
+                <a href="#" id="logo">
+                    <img id="logo1" src="https://dev.mtg-mm.com/assets/img/logo.png">
+                    <img id="logo2" src="https://dev.mtg-mm.com/assets/img/storepng.png">
+                </a>
+            </div>
+            <i class="fas fa-bars fill__in__mobile__display"></i>
+            <div class="header__navbar none__in__mobile__display header__items">
+                <ul>
+                    <li>
+                        <a href="#" style="color: blue;">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Game</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__navbar none__in__mobile__display header__items header__search">
+                <input placeholder="Search game or by coupons" id="search__input">
+                <a href="#">
+                    <i class="fal fa-search" id="search__icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Game</a>
-            </li>
-            <li>
-                <a href="#">Support</a>
-            </li>
-        </ul>
-        <div class="slide"></div>
-    </header>
+    <div class="main">
+        <div class="trailer">
+            
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
 </body>
 
 </html>

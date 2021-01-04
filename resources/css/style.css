@@ -4,8 +4,130 @@
     box-sizing: border-box;
 }
 
-/* ------------HEADER------------ */
-#logo{
+::placeholder {
+    color: rgb(153, 157, 160);
+    opacity: 1; 
+  }
 
+/* ------------HEADER------------ */
+.header{
+    width: 100%;
+    height: 91px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px;
+    justify-content: center;
+}
+
+.imgs__logo{
+    margin-left: 20%;
+}
+
+.header__navbar{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.none__in__mobile__display{
+    display: flex;
+}
+
+.header__items li{
+    display: inline-flex;
+    margin-right: 65px;
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.header__items a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 31, 68);
+    outline: 0px;
+}
+
+.header__items a:hover{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
+    outline: 0px;
+}
+
+.header__items ul{
+    margin-left: 300px;
+}
+
+.header__search{
+   margin-right: 200px;
+   margin-left: 27px;
+   position: relative;
+}
+.fill__in__mobile__display{
+    display: none;
+}
+@media (max-width: 1024px) {
+    .fill__in__mobile__display{
+        display: block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #666666;
+        display:block;
+    }
+    .none__in__mobile__display{
+        display: none;
+    }
+    #logo1{
+        width: 60px;
+        height: 24.41px;
+    }
+    #logo2{
+        width: 55.88px;
+        height: 6.26px;
+    }
+    .imgs__logo{
+        margin-left: 100px;
+        display: grid;
+    }
+}
+#search__input{
+    margin-top: -5px;
+    width: 390px;
+    height: 54;
+    border: none;
+    border-radius: 30px;
+    background: rgb(245, 245, 245);
+    font-size: 14px;
+    padding-left: 36px;
+    outline: 0px;
+}
+
+#search__icon{
+   padding-top: 10px;
+   color: rgb(153, 153, 153);
+    font-size: 24px;
+    position: absolute;
+    right: 17px;
+}
+
+#logo2{
+    margin-top: 7px;
+}
+
+#logo{
+    display: grid;
+}
+
+/* ------------BODY------------ */
+
+.main{
+    background-color: mediumpurple;
+    height: 8000px;
+    width: 100%;
 }
 
