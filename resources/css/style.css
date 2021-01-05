@@ -112,9 +112,8 @@
 
 .main{
     padding-top: 92px;
-    height: 8000px;
+    height: 100%;
     width: 100%;
-    background-color: #e5e5e5;
     position: relative;
 }
 
@@ -232,8 +231,96 @@
     font-family: 'Inter';
     margin-bottom: 32px;
     display: -webkit-box;
-    height: 51px;
+    height: 50px;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+}
+
+.name__information{
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.description__information{
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 42px;
+}
+
+/* --------------- FOOTER------------------- */
+
+.footer{
+    width: 100%;
+    height: 174px;
+    background: #151B50;
+    display: flex;
+    color: #fff;
+    align-items: center
+}
+
+#logo3{
+    width: 80px;
+    height: 31px;
+    margin-bottom: 8px;
+}
+
+#logo4{
+    width: 75px;
+    height: 8px;
+}
+
+.update__footer{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.facebook__icon{
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.policy__wrap{
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.country__footer{
+    width: 230px;
+    height: 55px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0px 16px 0px 8px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.img__footer{
+    width: 65px;
+    border-radius: 10px;
+}
+
+.country__name{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.clone__border{
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left:0
 }

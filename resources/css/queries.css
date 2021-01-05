@@ -44,7 +44,7 @@
     .main{
         padding-top: 83px;
         background-color: #e5e5e5;
-        height: 8000px;
+        height: 100%;
         width: 100%;
         position: relative;
     }
@@ -128,4 +128,76 @@
         -webkit-line-clamp: 4;
         display: -webkit-box;
     }
+
+    .name__information{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    .detail__information{
+        margin-bottom: 80px;
+    }
+
+    .description__information{
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .footer{
+        height: 235px;
+    }
+
+    #logo3{
+        width: 60px;
+        height: 24px;
+        margin-bottom:6px;
+    }
+
+    #logo4{
+        width: 55.88px;
+        height: 6.26px;
+        margin-bottom:26px;
+    }
+
+    .update__footer{
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 8px;
+        text-align: left;
+    }
+
+    .facebook__icon{
+        font-size: 18px;
+    }
+
+    .policy{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .policy__wrap{
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .country__footer{
+        width: 150px;
+        height: 32px;
+        margin-top:24px;
+        margin-bottom:24px;
+        padding: 0px 12px 0px 4px;
+    }
+    
+    .img__footer{
+        width: 40px;
+    }
+    
+    .country__name{
+        font-size: 12px;
+    }
+
+    .clone__border{
+        justify-content: flex-start;
+    }
+    
 }
